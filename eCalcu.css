@@ -22,6 +22,8 @@ h1 {
     line-height: 70px;
     padding: 16px 8px;
     font-size: 25px;
+    background-color: #999;
+    border-radius: 50px 50px 0px 0px;
 }
 
 .buttons {
@@ -40,10 +42,41 @@ h1 {
     background-color: rgb(39, 39, 39);
     color: white;
 }
+.point {
+    border: 0.5px solid#999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+.numBtn {
+    border: 0.5px solid#999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+
 
 #equal, #oper {
     background-color: silver;
     color: black;
+    border: 0.5px solid#999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgb(114, 99, 99);
+    color: rgb(0, 0, 0);
 }
 
 #equal:hover{
@@ -59,5 +92,18 @@ h1 {
 .button:hover {
     background-color: #808080;
     color: black;
-    transition: 0.5s ease-in-out;
+}
+
+.numBtn:hover {
+    background-color: #808080;
+    color: black;
+}
+
+.point:hover {
+    background-color: #808080;
+    color: black;
+}
+
+.trans {
+    background-color: transparent;
 }
