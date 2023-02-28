@@ -15,11 +15,14 @@ const addToDisplay = (e) => {
     
 }
 
+
+// display
 point.addEventListener('click', addToDisplay);
 numbers.forEach(number => {number.addEventListener('click' , addToDisplay );})
 operButton.forEach(operator => {operator.addEventListener( 'click' , addToDisplay );})
 
 
+// equal button
 equalBtn.addEventListener(
     'click',
     () => {
@@ -65,6 +68,8 @@ equalBtn.addEventListener(
     }
 )
 
+
+// del buttons
 const buttons = Array.from(document.getElementsByClassName('button'));
 
 buttons.map(button => {
